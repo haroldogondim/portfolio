@@ -8,7 +8,7 @@ import Footer from "@/components/footer";
 const siteConfig: { [key: string]: string } = {
   name: "Haroldo Gondim",
   description:
-    "Software Developer experienced with PHP, Laravel, Node.js, React.js, Next.js, TypeScript, Lua and many others",
+    "Software Developer experienced with PHP, Drupal, Laravel, JavaScript, jQuery, Node.js, TypeScript, React.js, Next.js, MySQL, Tailwind, and many others.",
   ogImage: "https://haroldo.dev/og-image.png",
   url: "https://haroldo.dev",
 };
