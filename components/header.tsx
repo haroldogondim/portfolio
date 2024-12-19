@@ -18,7 +18,7 @@ const Header = () => {
               <div className="w-full text-md lg:text-[1.8rem] ml-1 md:font-extrabold font-bold">
                 Hey there! I&apos;m
               </div>
-              <div className="w-full font-bold md:font-extrabold text-[#fdd762] text-7xl md:text-9xl max-sm:leading-none">
+              <div className="w-full font-bold md:font-extrabold text-[#fdd762] text-6xl md:text-9xl max-sm:leading-none">
                 Haroldo Gondim
               </div>
               <div className="text-xl md:text-4xl mt-5 pt-2 text-zinc-500 md:w-[70%] w-full font-semibold">
