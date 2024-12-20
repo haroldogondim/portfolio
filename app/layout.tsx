@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "nextjs-google-analytics";
+import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Inter as FontSans } from "next/font/google";
 import { siteConfig } from "./page";
@@ -17,7 +19,6 @@ export const metadata: Metadata = {
     template: `%s - Software Engineer`,
   },
   description: siteConfig.description,
-
   keywords: [
     "haroldo gondim",
     "haroldo gondim dev",
@@ -44,9 +45,13 @@ export const metadata: Metadata = {
     "haroldo gondim altsec",
     "portfolio",
     "web developer",
+    "web developer php",
     "web dev",
+    "web dev php",
     "developer",
-    "programmer",
+    "programador php",
+    "fullstack php",
+    "php senior",
   ],
   authors: [
     {
@@ -61,7 +66,6 @@ export const metadata: Metadata = {
     url: siteConfig.url,
     title: siteConfig.name,
     description: siteConfig.description,
-    images: [`${siteConfig.url}/og-image.png`],
     siteName: siteConfig.name,
   },
   icons: {
@@ -87,6 +91,8 @@ export default function RootLayout({
             {children}
           </main>
         </ThemeProvider>
+        <GoogleAnalytics trackPageViews />
+        <Analytics />
       </body>
     </html>
   );
