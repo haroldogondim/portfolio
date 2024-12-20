@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import { GoogleAnalytics } from "nextjs-google-analytics";
-import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Inter as FontSans } from "next/font/google";
 import { siteConfig } from "./page";
@@ -91,8 +89,6 @@ export default function RootLayout({
             {children}
           </main>
         </ThemeProvider>
-        <GoogleAnalytics trackPageViews />
-        <Analytics />
       </body>
     </html>
   );
