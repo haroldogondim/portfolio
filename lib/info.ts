@@ -10,13 +10,15 @@ export const experiences = [
   {
     title: "HP (by Wipro)",
     location: { address: "São Paulo, SP - Brazil", type: "Remote" },
-    position: "Senior Software Developer",
+    position: "Tech Lead",
     description: `
-      At HP, I joined as a Senior Software Developer with over 10 years of experience in PHP, but no prior experience with Drupal. I quickly adapted and became the main developer on the hp.io project, a global Developer Portal aimed at users worldwide. I work with a range of technologies, including PHP, Drupal 10, Node.js, MySQL, HTML5/CSS3, JavaScript, TypeScript, React, jQuery, Apigee, REST APIs, Docker & Docksal, Acquia, Git, and GitFlow.
+      At HP, I’m currently the Tech Lead for the hp.io project, a global Developer Portal used by people all over the world. I started as a Senior Software Developer and got promoted thanks to my technical skills and leadership. My role is a mix of hands-on coding and leading the team to deliver high-quality solutions.
 
-      On a daily basis, I develop new features based on our sprint activities and address critical bugs. I actively participate in Agile methodologies and ceremonies such as daily stand-ups, planning meetings, demos, and retrospectives. My work primarily involves enhancing the project using Drupal 10 with PHP 8.2 for the back-end, along with front-end development using HTML, CSS, JavaScript, jQuery, and React with Vite. This project also includes some custom workarounds where Drupal renders React components.
+      As Tech Lead, I work closely with partners and stakeholders to align goals, define requirements, and contribute to strategic decisions. I mentor the team, review code, and ensure we follow best practices like Clean Code, SOLID principles, and DRY to build scalable and reliable solutions. We use Git and GitFlow for version control, making sure deployments are smooth and concise.
 
-      Although I initially had no experience with Drupal, my extensive PHP background enabled me to quickly gain expertise in the Drupal core. I am now considered one of the most important developer on the project, just below the development lead, and continue to contribute significantly to both the development and operational success of hp.io.`,
+      On the technical side, I work with PHP 8.2, Drupal 10, React with TypeScript, and Vite. My responsibilities include developing new features, creating and maintaining REST APIs, and fixing critical bugs. I also contribute to improving Drupal’s core system, focusing on stability, security, and better architecture.
+
+      Since stepping into the Tech Lead role, I’ve been playing a key part in the success of hp.io, combining my technical expertise and leadership to ensure our platform delivers real value to users around the world.`,
     date: "July 2024 - Present",
     skills: [
       "PHP",

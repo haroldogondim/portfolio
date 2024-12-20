@@ -36,14 +36,14 @@ export default function About() {
                 Today, my core skills are <b>PHP</b> and{" "}
                 <b>JavaScript/TypeScript</b>, and I&apos;m working at{" "}
                 <a
-                  className="font-bold text-[rgb(0,150,214)]"
+                  className="font-bold"
                   href="https://www.hp.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   HP
                 </a>{" "}
-                as a <b>Senior Software Developer</b>, consulting through{" "}
+                as a <b>Tech Lead</b>, consulting through{" "}
                 <a
                   href="https://www.wipro.com"
                   className="font-bold"
